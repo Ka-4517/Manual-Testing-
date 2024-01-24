@@ -1,0 +1,44 @@
+Manual Test Interview Questins 24 Jan 2024 
+
+1. What do you understand by software testing?
+Software testing is a validation process that confirms that a system works as per the business requirements. 
+It qualifies a system on various aspects such as usability, accuracy, completeness, efficiency, etc. 
+
+2. When should you stop the testing process?
+The testing activity ends when the testing team completes the following milestones.-
+
+Test case execution:
+The successful completion of a full test cycle after the final bug fix marks the end of the testing phase.
+
+Testing deadline:
+The end date of the validation stage also declares the closure of the validation if no critical or high-priority defects remain in the system.
+
+Code Coverage(CC) ratio:
+It is the amount of code concealed via automated tests. If the team achieves the intended level of code coverage (CC) ratio, then it can choose to end the validation.
+
+Mean Time Between Failure (MTBF) rate:
+Mean time between failure (MTBF) refers to the average amount of time that a device or product functions before failing. 
+This unit of measurement includes only operational time between failures and does not include repair times, assuming the item is repaired and begins functioning again. 
+MTBF figures are often used to project how likely it is for a single unit to fail within a certain period of time.
+
+3. What do verification and validation mean in software testing?
+Verification is a process that confirms that product development takes place as per the specifications and uses standard development procedures. The process comprises the following activities:
+Inspections
+Reviews
+Walk-throughs
+Demos
+
+Validation is a means to confirm that the developed product doesn’t have any bugs and works as expected. It comprises the following activities:
+Functional testing
+Non-functional testing
+
+4. What is static testing? When does it start and what does it cover?
+Static testing is a white-box testing technique that directs developers to verify their code with the help of a checklist to find errors in it. 
+Developers can start the static testing without actually finalizing the application or program. Static testing is more cost-effective than dynamic testing as it covers more areas than dynamic testing in a shorter time.
+
+5.Dynamic Testing ?
+Dynamic Testing is a type of Software Testing which is performed to analyze the dynamic behavior of the code. It includes the testing of the software for the input values and output values that are analyzed.
+
+5. Define black-box testing.
+It is a standard software testing approach that requires testers to assess the functionality of the software as per the business requirements. 
+The software is treated as a black box and validated as per the end user’s point of view.
