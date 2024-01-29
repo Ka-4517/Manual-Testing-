@@ -1,0 +1,295 @@
+Banking Domain Testing Interview Question - 29 Jan 2024
+
+1. What is Banking?
+In general terms, the business activity of accepting and safeguarding money owned by other individuals and entities, and then lending out this money in order to earn a profit.
+
+2. What is the Banking domain and explain briefly?
+The banking domain is nothing but a software division in a bank. Most of the banks are computerized now, the required software which is used will be under maintenance and very little enhancements. The members who work on this s/w can say that they are in the banking domain.
+
+3. What is BFSI?
+Banking, Financial Services and Insurance (BFSI) is an industry term for companies that provide a range of such services.
+
+4. What are the different types of Banks available in India?
+Types of Banks in India:
+i) Saving Banks,
+ii) Commercial Banks,
+iii) Industrial Banks / Development Banks,
+iv) Land Mortgage / Land Development Banks,
+v) Central / Federal / National Bank,
+vi) Co-operative Banks,
+vii) Exchange Banks,
+viii) Rural Banks
+
+5. What are the different types of Accounts available in Banks?
+Savings Accounts:
+They are for people who want to keep their money in a safe place and earn interest at the same time. We don’t need a lot of money to open a savings account.
+
+Certificates of deposit:
+They are savings deposits that require you to keep a certain amount of money in the bank for a fixed period of time. Usually banks charge a penalty if we withdraw our money early.
+
+Individual Retirement Accounts: 
+They are savings deposits that offer an excellent way to save for our later years.
+
+Checking accounts or Current accounts:
+They offer safety and convenience. We keep our money in the account and write a check when we want to pay a bill or transfer some of our money to someone else. 
+Banks sometimes charge a fee for checking accounts, many banks also offer no-fee checking and checking accounts that earn interest if you agree to keep a certain amount of money—a minimum balance—in the account.
+
+6. What are the different types of Loans available in Indian Banks?
+Types of Loans:
+
+i) Housing loans,
+ii) Industrial Loans,
+iii) Personal Loans,
+iv) Vehicle Loans,
+v) Education Loans,
+6) Agriculture Loans,
+7) Gold Loans,
+
+7. What are the Primary Functions of Banks?
+a. Accepting of Deposits.- a. Accepting of Deposits, Fixed Deposits, Current Deposits, Recurring Deposits
+b. Granting of Loans & Advances- Bank Overdraft, Cash Credits, Loans, Discounting the Bill of Exchange, 
+
+8. What are the Secondary Functions of Banks?
+Transfer of Funds
+Bill Payments
+
+9. What or the important operations in Internet Banking?
+Important operations in Internet Banking:
+i) Balance Inquiry,
+ii) Fund Transfers,
+iii) Mini statements,
+iv) Detailed reports,
+v) Bill payments,
+vi) Shopping,
+vii) Credit card payments,
+viii) Loan Payments,
+ix) Utility payments etc…
+
+10. What is Corporate Banking?
+Corporate Internet Banking (CIB) helps Corporate and Institutional customers to execute complex banking transactions from their desktops.
+
+Key facilities:
+• Single window view Bank accounts mapped to a single user ID. This includes loans, deposits, and linked accounts like channel partner, vendor, and dealer accounts.
+• Intra and Inter-Bank fund transfer using NEFT and RTGS
+• Bulk payments
+• Online Tax payment
+• Utility Bill payments
+• Trade Services
+• Cash Management Services which includes Cheque / DD printing, collections MIS, internet-based cheque writing, etc
+• Requests for Fixed Deposit( FD) opening, checkbook and cheque stop payment
+
+
+11. What is Mutual Fund and how it is related to Banking?
+the term is most commonly applied only to those collective investment vehicles that are regulated, available to the general public and open-ended in nature
+
+12. What should test in the Banking Domain application?
+We should test in Banking Domain application:
+• Banking Workflows.
+• Data Integrity issues.
+• Security and access issues.
+• Recovery testing.
+All the above needs to be tested in the expected banking environment 
+(Hardware, LAN, Op Sys, domain configurations, databases).
+
+13. What are the multiple software testing techniques involved in banking applications?
+If we talk about testing banking applications, it requires an end to end testing methodology involving multiple software testing techniques to ensure:
+• Total coverage of all banking work-flows and Business Requirements.
+• Functional aspect of the application.
+• Security aspect of the application.
+• Data Integrity.
+• Concurrency.
+• User Experience.
+
+14. What are the characteristics of Software applications in the banking domain?
+The characteristics of a Banking application are as follows:
+• Multi-tier functionality to support thousands of concurrent user sessions
+• Large scale Integration, typically a banking application integrates with numerous other applications such as Bill Pay utility and trading accounts
+• Complex Business workflows
+• Real-Time and Batch processing
+• High rate of Transactions per seconds
+• Secure Transactions
+• Robust Reporting section to keep track of day to day transactions
+• Strong Auditing to troubleshoot customer issues
+• Massive storage system
+• Disaster Management.
+
+15. What are the different types of Banking Software Applications available in the Industry?
+i) Core Banking System (for Branches and Head office Automation)
+ii) ATM Banking (for computerizing Automated Teller Machines)
+iii) Internet Banking System (for online Banking Services)
+iv) Financial Management System (for internal financial services management)
+v) Loan Management System (for handling loan approvals, sanctions, payments and recovery operations)
+vi) Credit Card Management system (for handling credit card related operations)
+vii) Wealth management system
+viii) Investment Management System
+ix) Stock market management system
+
+16. Banking Terminology ?
+Account Holder- Any person designated and authorized to transact business on behalf of an account.
+
+Affidavit:--A sworn statement in writing before a proper official, such as a notary public.
+
+Annual Percentage Rate (APR):--The cost of credit on a yearly basis expressed as a percentage. [ Annual Percentage Rate Formula (APR)
+
+Where: Periodic Interest Rate = [(Interest Expense + Total Fees) / Loan Principal] / Number of Days in Loan Term. ]
+
+Automated Teller Machine (ATM):--A machine, activated by a magnetically encoded card or other medium, that can process a variety of banking transactions.
+
+Automatic Bill Payment:--A checkless system for paying recurring bills with one authorization statement to a financial institution. For example, the customer would only have to provide one authorization form/letter/document to pay the cable bill each month.
+
+Available Balance:
+
+Balance Transfer:
+
+Bank Statement:
+
+Business Day:--Any day on which offices of a bank are open to the public.
+
+Cashier’s Check:--The primary benefit of a cashier’s check is that the recipient of the check is assured that the funds are available.
+
+Certificate of Deposit:--A negotiable instrument issued by a bank in exchange for funds, usually bearing interest, deposited with the bank.
+
+Check Truncation:---The conversion of data on a check into an electronic image after a check enters the processing system. Check truncation eliminates the need to return canceled checks to customers.
+
+Co-Maker(Guarantor:):--A person who signs a note to guarantee a loan made to another person and is jointly liable with the maker for repayment of the loan. (Also known as a Co-signer.)
+
+Credit Life Insurance:--A type of life insurance that helps repay a loan if you should die before the loan is fully repaid.
+
+Credit Limit:--The maximum amount of credit that is available on a credit card or other line of credit account.
+
+Debit:--A debit may be an account entry representing money you owe a lender or money that has been taken from your deposit account.
+
+Demand Deposit:--A deposit of funds that can be withdrawn without any advance notice.
+
+Electronic Funds Transfer (EFT):--The transfer of money between accounts by consumer electronic systems-such as automated teller machines (ATMs) and electronic payment of bills-rather than by check or cash. (Wire transfers, checks, drafts, and paper instruments do not fall into this category.)
+
+Electronic Banking:--A service that allows an account holder to obtain account information and manage certain banking transactions through a personal computer via the financial institution’s Web site on the Internet. (This is also known as Internet or online banking.)
+
+Mortgage:--A debt instrument used in a real estate transaction where the property is the collateral for the loan. A mortgage gives the lender a right to take possession of the property if the borrower fails to pay off the loan.
+
+Mortgage Loan:--A loan made by a lender to a borrower for the financing of real property.
+
+First Mortgage:--A real estate loan which is in a first lien position, taking priority over all other liens. In case of a foreclosure, the first mortgage will be repaid before any other mortgages.
+
+Fixed Rate Mortgage:--A mortgage with payments that remain the same throughout the life of the loan because the interest rate and other terms are fixed and do not change.
+
+Fixed Rate Loan:--The interest rate and the payment remain the same over the life of the loan. The consumer makes equal monthly payments of principal and interest until the debt is paid in full.
+
+Flexible Rate Loan:-- (Known As A variable interest rate loan is a loan where the interest charged on the outstanding balance fluctuates based on an underlying benchmark or index that periodically changes.)
+
+Foreign Transaction Fees:--A fee assessed by your bank for making a transaction at another bank’s ATM.
+
+Forged Check:--A check on which the drawer’s signature has been forged.
+
+Inactive Account:--An account that has little or no activity; neither deposits nor withdrawals having been posted to the account for a significant period of time.
+
+Maturity:--The date on which the principal balance of a loan, bond, or other financial instrument becomes due and payable.
+
+Personal Identification Number (PIN):--Generally a four-character number or word, the PIN is the secret code given to credit or debit cardholders enabling them to access their accounts. 
+
+What is the line of credit?
+Answer: Line of credit is an agreement between the bank and a borrower, to provide a certain amount of loans on borrower’s demand. The borrower can withdraw the amount at any moment and pay the interest only on the amount withdrawn.
+
+What is the line of credit?
+Answer: Line of credit is an agreement between the bank and a borrower, to provide a certain amount of loans on borrower’s demand. The borrower can withdraw the amount at any moment and pay the interest only on the amount withdrawn.
+
+QQ-Write ATM Test Cases ?
+Test Cases on UI of ATM :
+1. Verify that power backup should be present at ATM.
+2. Verify that card reader should be present.
+3. Verify that receipt printer should be present and working.
+4. Verify that cash dispenser is working as expected.
+5. Verify that the key pad should be working and covered.
+6. Verify that buttons are displayed on screen of ATM machine.
+7. Verify the font of text on the screen, it should be clearly visible.
+Test Cases on Functionality of ATM:
+1. Verify that when card in inserted in ATM, pin should be asked from user.
+2. Verify that when user enters incorrect pin for a particular number of times, the card is blocked.
+3. Verify that when user enters correct pin, the user details should be displayed on ATM screen.
+4. Verify that ATM machine asks to user for the amount to be withdrawn.
+5. Verify that if use enters amount greater than daily withdraw limit, error message is displayed.
+6. Verify that if doesn’t enter amount in round off digits, error message is displayed.
+7. Verify that if user enters valid amount, the exact amount of cash should be dispensed from ATM machine.
+8. Verify that how much time is taken in a transaction.
+9. Verify how much time is taken by system to logout user.
+10. Verify that user is able to use card of other bank on the ATM.
+11. Verify that message is displayed when the cash in ATM is finished.
+12. Verify that correct message is displayed after the transaction.
+13. Verify that user is presented with an option to select language of operation.
+14. Verify that pin is displayed in masked format.
+15. Verify that error message is displayed when entered amount is greater than account balance.
+16. Verify that session is timeout is no activity is performed for a particular time.
+17. Verify that the user is not allowed to exceed one transaction limit amount.
+18. Verify that the user is not allowed to exceed the one-day transaction limit amount.
+Negative Test Cases for ATM : 
+1.   Verify the functionality by entering a wrong pin number for a particular number of times.
+2.   Verify the card ATM machine functionality by inserting an expired card.
+3.   Verify the cash withdrawal functionality by entering invalid amount such as 10, 20, 50.
+4.   Verify the ATM machine functionality by entering amount greater than available balance.
+5.   Verify the ATM machine functionality by entering amount greater than per day and per transaction limit.
+
+QQ-What is The Payment Gateway Test Cases ?
+UI Test Cases for Payment Gateway:--
+Check if all the labels and boxes are visible.
+Verify the payment gateway company logo or name.
+Check if the credit card number is masked or not.
+Verify that all the payment options are visible.
+Check if the color scheme matches the specifications.
+
+Functional Test Cases for Payment Gateway:--
+Check if each of the payment options is selectable.
+Check if the default credit/debit card gets automatically added.
+Verify that the page does not proceed to the payment page before all the mandatory information is filled.
+Check if multiple cards can be saved as default or not.
+Verify that the correct currency is reflected on the page.
+Check if the payment is not getting processed for null values in the cart.
+Verify if multiple payment options are not getting selected. Only one at a time.
+Check if the payment is not getting proceeded with an expired/blocked card.
+Verify cases like-
+Credit/debit card number+wrong date+ right CVV
+Credit/debit card number+ right date+ wrong CVV
+Wrong credit/debit card number+ right date+ right CVV
+And some other similar combinations
+Check if the user gets a confirmation message or mail if the payment is successful.
+Check if a pop-up appears if the session has expired.
+Verify that the user gets information about unsuccessful payments.
+Check if double payment is not occurring in any case.
+Check what happens after the session gets expired. Does the payment still occur?
+Verify if the respective payment option triggers the right payment gateway.
+Check if the user is directed back to the application after a successful transaction.
+Check what happens if the payment gets stopped midway. Does the amount still gets deducted?
+Check if the pop-up blocker during the payment is functional.
+Check if the application page is not getting redirected to some other page or link.
+
+What Are the security Test cases For Payment Gateway ?
+Security Test Cases for Payment Gateway:--
+Verify if the credit card information is in a masked form.
+Check that the payment is happening through a secured channel. i.e the link starts with HTTPS instead of the regular HTTP pages.
+Verify if the OTP reaches only the verified number linked with the card.
+Verify if the transaction gets canceled if the wrong OTP is entered.
+Check if it cannot be entered multiple times. A hacker can do a brute force attack by entering various combinations.
+Check if the session gets expired within the specified time.
+Verify that the person gets notified if the wrong OTP is entered.
+Check that it does not reflect on multiple numbers.
+Verify the bank name reflecting on the payment page is the same as the user.
+Check if the amount deducted is the same as the amount mentioned.
+
+
+What are the Security Testing You Performed / How would you Test Security ?
+Ex:-
+1. Verify that URL should be encrypted / Not containing any Query Strings or Usefull informations.
+2. 
+3. All that User Login or Sign Up details Should be Encrypted.
+4. Password/ID fields should be masked 
+5. Only Authorized user should Enter to your application.
+6. 
+What Are the Challenges In Banking Application As per Testing Point of View ?
+1. All the data base should be In Relational DB format / (Foriegn Key) Concept works / If user details changes In Table (A) then In Table (B) It automatically CHANGES THAT SAME DETAILS RELATED TO THAT KEY.
+2. If User Transaction not Completed then that Operation should be Rollback. 
+3. If User Transaction Completed then only Other Operation Takes Place for Execution.
+
+Learn Normalization?
+Learn Relation DB ?
+Learn Keys ?
+Learn Database Query Concepts ?
+
