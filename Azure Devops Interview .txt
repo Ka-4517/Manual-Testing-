@@ -1,0 +1,14 @@
+Azure Devops Interview 
+
+Retrospective Meetings ?
+
+What is Azure Devop vs Jira ?
+
+What is impediment vs incident ?
+
+What is the flow for QA in Azure ?
+Test Plan >> Test Suite >> Test Cases By QA >> Attach with item / Module >> Test >> Pass or Fail 
+
+How to View Items ?
+Board >> Itesm(Details / modules / Task ) >> Add Task (Add test cases or Add details )
+
