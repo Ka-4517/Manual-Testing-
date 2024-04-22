@@ -1,0 +1,63 @@
+1. Can you describe your experience with testing software in a real-time environment?
+Answer: Sure, I have experience testing software in real-time environments such as financial transaction processing systems (Test in one of my Project). 
+These types of systems require testing for high levels of performance, security, and reliability. 
+In addition, real-time systems often have strict timing requirements, so testing needs to ensure that the system meets these requirements.
+
+2. How do you ensure that a software application is ready for release to production?
+Answer: To ensure that a software application is ready for release to production, I follow a structured testing process that includes functional, performance, security, and regression testing. 
+I also work closely with the development team to ensure that all defects have been resolved, and all user requirements have been met. 
+Finally, I verify that the system meets all necessary performance and reliability requirements.
+
+3. Can you walk me through a real-world scenario where you found and fixed a critical bug?
+Answer: Sure, I once found a critical bug in a financial transaction processing system that caused the system to crash when processing certain types of transactions. 
+Also I found a critical bug in my project GetVantage where after applying all available limits in Investor the functionality become null & void in database. (Which is zero limits with zero investment)
+I first identified the root cause of the problem by analyzing log files and reviewing the system’s code. 
+I then developed a fix and tested it in a staging environment. Once I was confident that the fix worked, I deployed it to the production environment and verified that the system was functioning correctly.
+
+4. How do you prioritize testing efforts when working on a tight schedule?
+Answer: When working on a tight schedule, I prioritize testing efforts based on the criticality of the system’s features and functions. 
+I focus first on the most critical features and functions and then move on to less critical ones. 
+Additionally, I work closely with the development team to ensure that testing efforts are aligned with their development schedule and to ensure that any issues found are addressed in a timely manner.
+
+5. How do you determine which test cases to automate versus manually?
+Answer: I determine which test cases to automate versus manually execute based on the frequency of testing, the complexity of the test case, and the likelihood of human error. 
+Test cases that are executed frequently and involve complex calculations or data manipulation are good candidates for automation. 
+Conversely, test cases that are executed infrequently or involve subjective analysis are better suited for manual execution.
+
+6. Can you explain your approach to performance testing in a real-time system?
+Answer: My approach to performance testing in a real-time system involves setting up a test environment that closely simulates the production environment. 
+I then create test scripts that simulate realistic user traffic and activity. 
+I monitor the system’s performance during testing and use tools such as load testing and stress testing to identify bottlenecks and performance issues. 
+Finally, I work with the development team to optimize the system’s performance.
+
+7. What is your experience with testing software that has integrations with external systems?
+Answer: I have experience testing software that has integrations with external systems such as payment gateways, shipping systems, and inventory management systems. 
+I ensure that the software interacts correctly with these external systems and that data is correctly transmitted and received. 
+Additionally, I verify that error handling and recovery processes are in place and that the system can handle unexpected results from external systems.
+
+8. How do you handle unexpected results during testing and what steps do you take to investigate them?
+Answer: When unexpected results occur during testing, I first isolate the issue and determine the root cause. (Debugging)
+I then work with the development team to develop a fix and test it in a controlled environment. 
+Finally, I verify that the fix resolves the issue and that the system is functioning as expected.
+
+9. Can you describe a situation where you found and resolved a critical bug in a real-time system? (Repeat)
+Answer: One example of a critical bug I found and resolved was in a stock trading system. 
+The bug caused trades to be executed twice, resulting in significant financial losses for the company. 
+I identified the root cause of the issue, developed a fix, and tested it in a staging environment before deploying it to the production environment. 
+I also implemented additional tests to prevent the issue from occurring in the future.
+
+
+10. How do you ensure that software is secure and protected from cyber attacks?
+Answer: To ensure software is secure and protected from cyber attacks, I conduct security testing to identify vulnerabilities in the software. 
+This includes testing for SQL injection attacks, cross-site scripting, and buffer overflows. 
+I also ensure that data is encrypted during transmission and storage, and that access controls are in place to prevent unauthorized access.
+
+
+11. Can you describe your approach to testing a mobile application?  [ Important ]
+Answer: My approach to testing a mobile application involves testing the application on multiple devices and platforms to ensure compatibility. 
+I also test the application’s performance, including load testing and stress testing. 
+Additionally, I conduct user acceptance testing to ensure that the application meets user expectations and is user-friendly.
+
+
+
+
