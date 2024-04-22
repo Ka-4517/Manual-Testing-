@@ -118,5 +118,44 @@ and device-specific functionality.
 Emulators and real devices can be used for testing. This ensures that the app works consistently across various platforms.
 
 
+3. Scenario: You are testing a banking application, and a user reports that their account balance is not updating correctly. How would you investigate and document this issue?
+- Answer: I would first try to reproduce the issue by following the user's reported steps. 
+If the problem persists, I would document the issue by including the user's steps, expected and actual results, and any screenshots. 
+Additionally, I'd check the server logs to identify any transaction failures or discrepancies.
 
 
+4. Scenario: You are testing a software update for a complex industrial control system. How would you plan your testing strategy to ensure system stability and safety?
+- Answer: I would begin with risk analysis to identify critical areas that must not fail. 
+I'd create a detailed test plan, including unit, integration, system, and regression testing. 
+The testing would involve simulating real-world scenarios and ensuring safety mechanisms are in place, like emergency stop functionality.
+
+
+5. Scenario: You are working on a tight deadline for a software release, and you have a large number of test cases to execute. What strategies would you employ to meet the deadline without compromising quality?
+- Answer: To meet the deadline, I would prioritize test cases based on their criticality, focus on high-impact areas, and automate repetitive tests. 
+I'd also collaborate closely with the development team to ensure quick defect resolution. Continuous communication and risk-based testing would be key to balancing speed and quality.
+
+
+6. Scenario: You are testing a healthcare application, and you come across a potential HIPAA compliance issue. What steps would you take to address this concern?
+- Answer: I would immediately report the compliance concern to the project manager, security team, and legal department. 
+I would stop testing any areas related to sensitive patient data until the compliance issue is addressed. It's crucial to follow legal and ethical guidelines when handling such issues.
+
+
+7. Scenario: You are testing a GPS navigation app, and users have reported inaccuracies in location tracking. How would you approach this issue?
+- Answer: I'd verify the issue by using the app on different devices and locations. I'd also cross-reference the app's data with other trusted mapping services to identify discrepancies. 
+Additionally, I'd check the app's settings and permissions to ensure correct usage.
+
+
+8. Scenario: You are tasked with testing a new feature in a web application that requires interaction with third-party APIs. How would you ensure the reliability of this feature?
+- Answer: I'd thoroughly test the feature's interaction with the third-party APIs, covering various scenarios such as successful responses, timeouts, and error handling. 
+I'd also monitor the API responses for consistency and performance. Integration testing with these APIs is crucial to ensure reliable functionality.
+
+
+9. Scenario: You are testing a video streaming app, and users have reported buffering issues. How would you troubleshoot and identify the root cause of this problem?
+- Answer: I'd start by checking the user's network connection and device performance. If those are not the causes, I'd review server logs to identify any latency issues or server-side problems. 
+I'd also check the app's caching and buffering mechanisms to ensure they are functioning optimally.
+
+
+10. Scenario: You are testing a software application for a global audience. How would you handle localization and internationalization testing?
+- Answer: I'd begin by creating test cases for language support, date and time formats, currency symbols, and regional settings. 
+I'd also test the application's ability to adapt to different languages, character sets, and cultures. Emulators, simulators, or real devices representing different regions would be used for testing.
+These scenario-based questions and answers should help you prepare for interviews by showcasing your problem-solving abilities and practical testing experience.
