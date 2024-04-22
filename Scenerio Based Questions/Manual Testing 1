@@ -47,7 +47,7 @@ I identified the root cause of the issue, developed a fix, and tested it in a st
 I also implemented additional tests to prevent the issue from occurring in the future.
 
 
-10. How do you ensure that software is secure and protected from cyber attacks?
+10. How do you ensure that software is secure and protected from cyber-attacks?
 Answer: To ensure software is secure and protected from cyber attacks, I conduct security testing to identify vulnerabilities in the software. 
 This includes testing for SQL injection attacks, cross-site scripting, and buffer overflows. 
 I also ensure that data is encrypted during transmission and storage, and that access controls are in place to prevent unauthorized access.
@@ -57,6 +57,65 @@ I also ensure that data is encrypted during transmission and storage, and that a
 Answer: My approach to testing a mobile application involves testing the application on multiple devices and platforms to ensure compatibility. 
 I also test the application’s performance, including load testing and stress testing. 
 Additionally, I conduct user acceptance testing to ensure that the application meets user expectations and is user-friendly.
+
+
+12. How do you ensure that software is accessible to users with disabilities?
+Answer: To ensure that software is accessible to users with disabilities, I conduct accessibility testing to identify issues such as insufficient contrast, 
+non-standard navigation, and lack of audio descriptions for video content. 
+I also ensure that keyboard navigation is available, that text can be resized, and that screen readers can read content correctly.
+
+13. Can you describe your experience with testing software that integrates with third-party APIs?
+Answer: I have experience testing software that integrates with third-party APIs, such as payment gateways and shipping systems. 
+I ensure that the software interacts correctly with these external systems and that data is transmitted and received correctly in the database. 
+I also test error handling and recovery processes to ensure the software can handle unexpected results from third-party APIs.
+
+
+14. Can you describe your approach to regression testing?
+Answer: My approach to regression testing involves testing previously tested features and functions to ensure they still work as expected after changes have been made. 
+I created a regression test suite that includes both automated and manual test cases. 
+I also prioritize test cases based on the risk associated with changes made to the software.
+
+15. Can you describe your approach to performance testing?
+Answer: My approach to performance testing involves simulating realistic user traffic and activity to identify bottlenecks and performance issues. 
+I also use tools such as load testing and stress testing to test the software’s ability to handle high levels of traffic and activity. 
+I work with the development team to optimize the software’s performance and ensure it meets performance requirements.
+
+
+16. Can you describe a situation where you had to work with a difficult team member or stakeholder?
+Answer: In one situation, I had to work with a team member who was resistant to feedback and suggestions. 
+I approached the situation by taking the time to understand their perspective and concerns. 
+I also presented data and evidence to support my suggestions and worked to build a positive working relationship with the team members.
+
+17. Can you explain a situation where you had to deal with a critical defect in a live production environment?
+Answer: Yes, I had a situation where there was a critical defect in the production environment, which was impacting the customer experience. 
+We immediately raised the issue to the development team and they provided a hotfix to address the issue. 
+We tested the fix and deployed it to the production environment after ensuring that it did not introduce any new defects.
+
+18. Can you give an example of a scenario where you found a defect during exploratory testing?
+Answer: Sure, during exploratory testing, we were testing an e-commerce application and found that the payment gateway was not functioning properly. 
+We raised the defect to the development team, and after their investigation, it was found that the issue was caused due to a configuration error. 
+The team immediately resolved the issue, and we retested to ensure the payment gateway was functioning properly.
+
+19. Explain a situation where you had to handle a situation where a feature was not documented properly.
+Answer: I had a situation where we found that a feature was not documented correctly, and the documentation was causing confusion among the team members. 
+We immediately raised the issue to the product owner, and they provided us with updated documentation. 
+We then verified the feature based on the updated documentation and ensured that the feature was working as expected.
+
+20. Can you describe a scenario where you had to perform load testing?
+Answer: Yes, I had to perform load testing on a banking application to ensure that it could handle the expected traffic during peak hours. 
+We created test scenarios that simulated a high number of concurrent users accessing the application simultaneously. 
+We monitored the application’s performance under the heavy load and identified performance bottlenecks. 
+We then provided recommendations to the development team to improve the application’s performance under load.
+
+
+1. Scenario: You are testing an e-commerce website, and customers are reporting issues with the checkout process. How would you approach this problem?
+- Answer: I would start by checking the checkout process step by step, looking for any UI issues, error messages, or slow loading times. 
+I'd also review the error logs and examine the server response times. This will help identify the root cause of the issues and prioritize them for resolution.
+
+2. Scenario: You are testing a mobile app, and it needs to work on various devices and screen sizes. How would you ensure compatibility testing?
+- Answer: I would create a matrix of target devices and screen sizes. Then, I'd test the app on each combination, looking for issues related to screen layout, touch responsiveness, 
+and device-specific functionality. 
+Emulators and real devices can be used for testing. This ensures that the app works consistently across various platforms.
 
 
 
