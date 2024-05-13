@@ -1,1 +1,66 @@
+1. What is OTT Testing ? 
+OTT testing refers to assessing the OTT platform to ensure the quality of streamed content, performance (buffering behavior), and 
+compatibility with different devices. It focuses on testing different parameters, such as streaming speed, buffering, audio and 
+video quality, security, device compatibility, network speed, and connectivity.
+
+The primary objective of OTT testing is to ensure end-users receive an optimal experience with extremely high-quality OTT 
+content on different devices. It assists developers in understanding how a specific OTT platform will function in the real world. 
+
+Testers and QA professionals prioritize testing the streaming platform’s user interface and user experience. 
+
+User Interface: It involves checking the app’s front-end elements and controls to ensure seamless user interaction. 
+User Experience: It involves verifying that the app provides optimal performance and exceptional viewing experience 
+so that users can’t resist using it repeatedly.
+
+OTT testing is generally a time-consuming process that requires and is carried out as a combination of manual and automation testing. 
+
+
+2. Why is OTT Testing Important? 
+
+
+3. Types of OTT Testing
+1. Functional Testing 
+2. Compatibility Testing
+3. Performance Testing 
+4. Security Testing
+5. Geolocation Testing
+
+4. OTT Testing Checklist ?
+1. UI, UX, & Functionality 
+2. Streaming and Performance
+3. Account
+4. Security & Billing
+5. Cross-Platform Testing
+
+
+5. Challenges in OTT Testing
+Cross-Device Testing:
+Response Time:
+Cross-Browser Testing:
+Traffic Overload:
+
+5.5 Types of OTT Programming
+Various OTT services cater to user preferences and business models.
+Subscription Video-on-Demand (SVOD) Services: These platforms offer a subscription-based model, granting users access to a content library for a recurring fee.
+Advertising-based Video-on-Demand (AVOD) Services: In AVOD services, users can access content for free, supported by advertisements displayed during playback.
+Ad and Non-Advertising Supported Services: Some OTT platforms offer ad-supported and non-ad-supported options, allowing users to enjoy content with or without interruptions.
+Free Video-on-Demand (VOD): These services allow users to access content without subscription or payment, relying on advertising revenue as their primary monetization method.
+Transactional Video-on-Demand (TVOD): TVOD services enable users to rent or purchase individual content on a pay-per-view basis.
+
+6. TV devices ?
+Smart TV : a smart TV is a TV set that can deliver content over the Internet. So any TV that offers online content — no matter what operating system it runs — is a smart TV. (QLED 4K Smart TV)
+LFD TV : large format displays, or LFDs, are large flat-screen displays that are minimally 32” and can be as big as 90” or more! (SamsunG-DC32E-32-Full HD-16×7 || Samsung-DB43J-43-Full HD-16*7)
+Android TV : Android TV is also a smart TV, the major difference being that it runs Android TV OS under the hood.(Sony X800H)
+In essence, Android TV and Smart TV are fundamentally the same thing since both offer content over the Internet. 
+As I mentioned above, it’s the underlying OS that makes all the difference.
+LED TV :LED TV is a type of LCD TV that uses light-emitting diodes (LEDs) to illuminate the screen, 
+LCD TV:while LCD TV uses cold cathode fluorescent lamps (CCFLs) or other types of fluorescent lights.
+OLED TV:organic light-emitting diode display is a type of display technology that utilizes organic compounds to emit light when an electric current is applied.
+
+
+7. Performance Testing of OTT Includes?
+Response time in different networks (Wi-Fi/3G/4G/5G)
+Traffic overload test
+App load time/page navigation time tests
+Streaming issues/frame rate testing
 
