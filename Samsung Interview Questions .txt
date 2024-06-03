@@ -1,0 +1,105 @@
+Samsung Interview Questions 
+
+What is smart tv ?
+What is LED Tv ?
+What is LFD Tv ?
+What is Vision AI , Voice AI ?
+What Tizen Platform Development ?
+What is Breadcasting System in Testing ?
+Roles & Responsibilities are in samsung is :-
+1. Requirement Analysis--
+2. Test Planning, Test Cases, Test Strategy, Conslidated Test Reports Creation--
+3. QA Sign off 
+4. Ensuring Milestones meet Quality criteria
+5. Timely Escilations & mitigations of the projects 
+6. RTM 
+7. Domain to work : TV/Monitors/Mobile/PC
+
+https://github.com/Ka-4517/Manual-Testing-/blob/main/Manual%20Test%20Interview%20Questins%2024%20Jan%202024%20.txt
+Testing 
+Types Of Testing 
+SDLC 
+STLC
+Functional Testing 
+Non Functional Testing 
+UI Testing 
+Regression Testing 
+Exploratory Testing 
+Adhoc Testing 
+Monkey Testing 
+Gorilla Testing 
+API Testing 
+Mobile Testing 
+Web Testing 
+TV Testing 
+
+Static & Dynamic Testing 
+Verification & Validation 
+
+
+13. What Test Plans consists of?
+Test design, scope, test strategies, approach are various details that Test plan document consists of.
+Test case identifier
+Scope
+Features to be tested
+Features not to be tested
+Test strategy & Test approach
+Test deliverables
+Responsibilities
+Staffing and training
+Risk and Contingencies
+
+14. What is the difference between UAT (User Acceptance Testing) and System testing?
+System Testing: System testing is finding defects when the system undergoes testing as a whole; it is also known as end-to-end testing. 
+In such type of testing, the application suffers from beginning till the end.
+UAT: User Acceptance Testing (UAT) involves running a product through a series of specific tests which determines whether the product will meet the needs of its users.
+
+15. Mention the difference between Data Driven Testing and Retesting?
+Retesting: It is a process of checking bugs that are actioned by the development team to verify that they are fixed.
+Data Driven Testing (DDT): In data driven testing process, the application is tested with multiple test data. 
+The application is tested with a different set of values.
+
+17. What is the difference between test scenarios, test cases, and test script?
+
+18. What is Latent defect?
+Latent defect: This defect is an existing defect in the system which does not cause any failure as the exact set of conditions has never been met
+
+19. What are the two parameters which can be useful to know the quality of test execution?
+To know the quality of test execution, we can use two parameters
+Defect reject ratio
+Defect leakage ratio
+
+21. Explain what Test Deliverables is?
+Test Deliverables are a set of documents, tools and other components that have to be developed and maintained in support of testing.
+There are different test deliverables at every phase of the software development lifecycle
+Before Testing
+During Testing
+After the Testing
+
+25. What are the categories of debugging?
+Categories for debugging
+Brute force debugging
+Backtracking
+Cause elimination
+Program Slicing
+Fault tree analysis
+
+26. What is fault masking explain with example?
+When the presence of one defect hides the presence of another defect in the system, it is known as fault masking.
+Example: If the “Negative Value” cause a firing of unhandled system exception, the developer will prevent the negative values input. 
+This will resolve the issue and hide the defect of unhandled exception firing.
+
+what is the difference between a project and a product?
+The terms "product" and "project" are related to business and management but refer to different concepts:
+
+Product:
+- A product is something that is made or grown to be sold or used. It can be a physical item or a service.
+- Products are typically designed to meet the needs or wants of customers.
+- Products are usually tangible, such as a smartphone, a car, a meal at a restaurant, or intangible, such as software, a music streaming service, or a consultancy service.
+- Products have a life cycle that includes development, production, marketing, sales, and eventual retirement.
+Project:
+- A project is a temporary endeavor undertaken to create a unique product, service, or result.
+- Projects are typically time-bound, with specific start and end dates, and are undertaken to achieve a specific goal.
+- Projects are usually unique and are not part of the organization's ongoing operations.
+- Projects have defined objectives, scope, resources, and timeline.
+- Examples of projects include building a new website, launching a marketing campaign, or implementing a new software system.
