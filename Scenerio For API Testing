@@ -1,0 +1,14 @@
+Suppose you have an application & In that Application You need to test the Flight Booking , Car Booking , Hotel Booking module But 
+whenever you start searching for locations most of the locations are not coming. Obviously the api is not having that data. 
+But if client / PM Wants to test with All available data only then How will you Test and ensure that whatever thge locations data present you tested them all
+& Also How will you sure that data/location is not Present in API.
+
+Answer:
+1. Open postman swagger 
+2. Paste that Location fetching List - Api 
+3. Run & Get the Response 
+4. Check the data 
+5. Note All the Location names/data are coming 
+6. Do Testing with that data 
+7. Share the Report 
+
