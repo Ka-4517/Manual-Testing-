@@ -1,0 +1,20 @@
+Tips:
+Make sure that your app has the appropriate permissions to write logs or access system logs.
+Always remember to remove or minimize logging in production builds to avoid performance issues or data leaks.
+
+For Android Devices:
+Logcat:
+Use Android Studio or the command line to access the Logcat tool.
+You can view real-time logs by running the command:
+adb logcat
+
+For iOS Devices:
+Console App:
+Connect your iOS device to your Mac and open the Console application (found in Applications > Utilities).
+You can view real-time logs by selecting your device in the Console app.
+
+For Android Devices:(Real Device)
+Use Log Viewer Apps:
+Install a Log Viewer App: Download an app like aLogcat or Logcat Reader from the Google Play Store.
+Open the App: Launch the log viewer app.
+Start Capturing Logs: Follow the app's instructions to start capturing logs. Keep in mind that most log viewers require your device to be rooted to access system logs.
