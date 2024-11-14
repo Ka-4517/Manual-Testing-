@@ -1,1 +1,45 @@
+What is Software ?
+Software is a set of instructions that tells a device what to do and how to do it. 
+
+Types of Software?
+1. System Software (system software basically controls a computer’s internal functioning and also controls hardware devices such as monitors, printers, and storage devices, etc.)
+     Operating System
+     Language Processor
+     Device Driver
+2. Application Software (application software is designed to perform a specific task for end-users. It is a product or a program that is designed only to fulfill end-users’ requirements. 
+It includes word processors, spreadsheets, database management, inventory, payroll programs, etc.)
+    General Purpose Software
+    Customize Software
+    Utility Software
+
+What is Software Testing ?
+Software testing is the process of evaluating a software product/Software to ensure it meets expectations and works as intended. It involves checking for errors, bugs, glitches, and missing requirements.
+
+Types Of Software Testing ?
+Manual Testing Method
+Automation Testing Method
+
+What is Manual Testing ?
+Manual testing is a software testing method where a tester manually runs test cases to identify bugs, defects, and issues in a software application. 
+It's a basic testing method that's essential for ensuring that software functions correctly and delivers a quality product to the user.
+
+Why we need manual testing?
+If we don't want to face issue as an end user in the application or a kinds of problems, we need to perform testing to make the application bug free and stable and 
+deliver a quality product to the client, because if the application is bug free, the end-user will use the application more conveniently.
+
+Types of Manual Testing?
+White Box Testing
+The white box testing is done by Developer, where they check every line of a code before giving it to the Test Engineer. 
+Since the code is visible for the Developer during the testing, that's why it is also known as White box testing.
+
+Black box testing
+The black box testing is done by the Test Engineer, where they can check the functionality of an application or the software according to the customer /client's needs. 
+In this, the code is not visible while performing the testing; that's why it is known as black-box testing.
+
+Gray Box testing
+Gray box testing is a combination of white box and Black box testing. It can be performed by a person who knew both coding and testing. 
+And if the single person performs white box, as well as black-box testing for the application, is known as Gray box testing.
+
+
+
 
