@@ -1,1 +1,38 @@
+What are the Drawbacks of Manual Testing?
+Time-consuming: Manual testing requires time as the tester executes test cases manually and testing complex programs could take some time.
+Human error: Manual testing is prone to human error. By making mistakes when executing test cases, testers may come up with erroneous results.
+Difficult to measure: It is difficult to assess the efficiency of the manual testing process as it is difficult to keep track of the quality of the test cases executed, errors discovered, and test coverage attained.
+Costly: Manual testing can be expensive, particularly for big, complex projects, or when frequent releases are required.
+
+What is the role of documentation in Manual Testing?
+Documentation plays a vital role in manual testing. It is important to document all steps taken in the testing process to ensure sufficient test coverage and accurate results. 
+It provides an audit trail, which can be used to evaluate past test results and identify areas of improvement. 
+It also serves as a reference for other testers who may be unfamiliar with the system.
+
+What is Test Harness?
+Test Harness is a collection of stubs, drivers, and other supporting tools that are required to automate the test execution. 
+It executes tests using a test library and generates test reports.
+It helps automate the testing procedures and thus increases the productivity of the system through automation.
+A test harness is a collection of numerous things to test software and report its results.
+It helps developers to measure the cove coverage at a code level.
+for testers: BrowserStack, LambdaTest, Testsigma,JUnit: JUnit is a unit testing framework,Selenium,9. Apache JMeter
+for Developers: 
+1. Bamboo
+Best for: Continuous delivery and deployment.
+Features:
+Integrates with JIRA, Bitbucket, and other Atlassian tools.
+Automated build and testing pipelines.
+Branch-specific testing.
+Use Case: Agile teams needing seamless CI/CD.
+2. Jest
+Best for: JavaScript and React applications.
+Features:
+Zero-config setup for React, Vue, and Angular projects.
+Mocking capabilities for isolated tests.
+Built-in coverage reports.
+Use Case: Unit and integration testing for front-end and Node.js
+
+What is Test Closure?
+Test closure is a document that provides a summary of all the tests covered during the software development lifecycle.
+It includes various activities like test completion reporting, a summary of test results as well and the test completion matrix.
 
