@@ -1,1 +1,69 @@
+-- Create
+CREATE TABLE TABLENAME (
+id INT PRIMARY KEY,
+name VARCHAR(100),
+email VARCHAR(100)
+);
+
+
+-- Read
+SELECT * FROM TABLENAME;
+
+-- Update
+UPDATE TABLENAME SET COLUMN_NAME = 'newemail@example.com' WHERE CLOUMN_NAME = 1;
+
+-- Delete (Row)
+DELETE FROM TABLENAME WHERE CloumnName = 300;
+
+--Delete (Column)
+ALTER TABLE TABLENAME
+DROP COLUMN COLUMNNAME;
+------------------------------------------------------------------------------------
+How do you create a new database?
+Creating a new database in SQL can be done using the CREATE DATABASE statement.
+
+-- SQL Server
+CREATE DATABASE myDatabase;
+
+-- MySQL
+CREATE DATABASE myDatabase;
+Note:When naming a database, avoid spaces and special characters, and use a unique, descriptive name.
+-----------------------------------------------------------------------------------------
+What is the process to delete a database?
+-- SQL Server
+DROP DATABASE myDatabase;
+
+-- MySQL
+DROP DATABASE myDatabase;
+-------------------------------------------------------------------------------------------
+How do you alter an existing database?
+Altering an existing database involves making changes to its structure or data. 
+This can be done using various SQL statements such as ALTER TABLE and ALTER DATABASE.
+UPDATE, DELETE, INSERT: Used to modify, remove, or add records in database tables.
+
+-- Alter Table (users=a table)
+ALTER TABLE users ADD COLUMN age INT;
+ALTER TABLE users DROP COLUMN age;
+ALTER TABLE users RENAME TO customers;
+-- Alter Database
+ALTER DATABASE myDatabase MODIFY NAME = newDatabaseName;
+-- Update, Delete, Insert
+UPDATE users SET name = 'John Doe' WHERE id = 1;
+DELETE FROM users WHERE id = 1;
+INSERT INTO users (id, name, email) VALUES (2, 'Jane Doe', 'jane@example.com');
+--------------------------------------------------------------------------------------------------
+Common Challenges and Solutions
+While performing basic SQL database operations, you might encounter some common challenges. Here are a few and their solutions:
+
+Permission Issues: Ensure you have the necessary permissions to perform operations by checking your user privileges.
+Syntax Errors: Double-check your SQL syntax and refer to documentation for the correct usage of commands.
+Data Loss: Always back up your data before performing operations that modify or delete data.
+--------------------------------------------------------------------------------------------------
+What Is an SQL operator?
+An operator is a reserved word or a character that is used to query our database in a SQL expression.
+What Are the Types of SQL Operators?
+Generally, there are three types of operators that are used in SQL.
+Arithmetic Operators
+Comparison Operators
+Logical Operators
 
