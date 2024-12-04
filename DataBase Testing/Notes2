@@ -1,0 +1,14 @@
+Fetching all rows from a table
+You can choose columns from a table. To do so, list the names of the desired table columns after SELECT in the statement. 
+You give the name of the table after the FROM clause. To retrieve data from a child table, use dot notation, such as parent.child.
+Example 1: Choose all data from the table BaggageInfo.
+SELECT * FROM BaggageInfo;
+Example 2: Fetch column data from Table Customers.
+SELECT customer_id FROM Customers;
+Example 2: To choose specific column(s) from the table BaggageInfo, include the column names as a comma-separated list in the SELECT statement.
+SELECT customer_id,first_name,country FROM Customers  ;
+
+Filter data from a table
+You can filter query results by specifying a filter condition in the WHERE clause. Typically, a filter condition consists of one or more comparison expressions connected through logical operators AND or OR. 
+SELECT bag.fullName, bag.bagInfo[].tagNum FROM BaggageInfo bag
+WHERE bag.confNo="FH7G1W"
