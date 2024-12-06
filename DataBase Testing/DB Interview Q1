@@ -1,0 +1,46 @@
+1) What is Database Testing?
+Database Testing is also known as Backend Testing.
+Database Testing is segmented into four different categories:
+Testing of Data Integrity
+Testing of Data Validity
+Data base related performance
+Testing of functions, procedure and triggers
+
+2) In database testing, what do we need to check normally?
+Normally, the things that we check in DB Testing are:
+Constraint Check
+Validation of a Field size
+Stored procedure
+Matching application field size to database
+Indexes for performance based issues
+
+3) Explain what is data driven test?
+In a data-table, to test the multi numbers of data, data-driven test is used. 
+By using this it can easily replace the parameters at the same time from different locations.
+
+
+) What are joins and mention different types of joins?
+Join is used to display two or more than two table and the types of joins are:
+Natural Join
+Inner Join
+Outer Join
+Cross Join
+The outer join is divided again in two:
+Left outer join
+Right outer join
+
+
+5) What are indexes and mention different types of indexes?
+Indexes are database objects and they are created on columns. To fetch data quickly they are frequently accessed. 
+Different types of indexes are:
+B-Tree index
+Bitmap index
+Clustered index
+Covering index
+Non-unique index
+Unique index
+
+6) While testing stored procedures what are the steps does a tester takes?
+The tester will check the standard format of the stored procedures and also it checks the fields are correct like updates, 
+joins, indexes, deletions as mentioned in the stored procedure.
+
