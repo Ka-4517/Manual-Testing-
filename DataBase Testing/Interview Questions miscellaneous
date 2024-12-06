@@ -99,14 +99,6 @@ Disadvantages:
 Additional programming is required for the AUTO_INCREMENT feature which is not available in the engine by default.
 Concurrency issue when there are multiple parallel sessions active.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What is XAMPP?
-XAMPP is one of the widely used cross-platform web servers, which helps developers to create and test their programs on a local webserver. 
-It was developed by the Apache Friends.
-What is XAMPP?
-XAMPP is an abbreviation where X stands for Cross-Platform, A stands for Apache, M stands for MYSQL, and the Ps stand for PHP and Perl, respectively.
-XAMPP Format Support: .EXE,.7z - 7zip file,.ZIP
-
-Installation Process Of XAMPP.
 
 -------------------------------------------------------------------------
 Key Factors Affecting Database Performance?
