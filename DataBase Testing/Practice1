@@ -1,0 +1,32 @@
+What is XAMPP?
+XAMPP is one of the widely used cross-platform web servers, which helps developers to create and test their programs on a local webserver. 
+It was developed by the Apache Friends.
+What is XAMPP?
+XAMPP is an abbreviation where X stands for Cross-Platform, A stands for Apache, M stands for MYSQL, and the Ps stand for PHP and Perl, respectively.
+XAMPP Format Support: .EXE,.7z - 7zip file,.ZIP
+
+Installation Process Of XAMPP.
+1. Download & Install XXAMP (xampp-windows-x64-8.0.30-0-VS16-installer)
+2. Start APACHE SERVER Fisrt To run the Database on Local
+3. Start MYSQL/SQL 
+4. Database Running Program :
+  1. Create your first Database
+-You can create you Database by click 'New' then you will see the form which you need to complete to create your own. 
+Enter name of Database, charset, then click 'Create' to start creating.
+   2. Create Table on your Database 
+-In the right side, you can create table by enter the name and number of column then click 'Go' to go ahead.
+-You can set you field name, type, length, .etc... in your table and then click 'Save' to complete creating Table.
+-Done, you can see all table in the left side list... and simply to update, create more tables.
+   3. Set Password to phpMyAdmin on XAMPP
+Step 1: On phpMyAdmin page, click on the ‘User accounts’ option at the top of the page.
+Step 2: Now press the ‘Edit Privileges’ under ‘Actions’ option for the Username ‘root’ and Hostname ‘localhost.’
+Step 3: Now choose the third tab ‘Change password’ and type your password in the provided field, retype the password to confirm 
+it and then finally click on the ‘Go’ key to conclude the process.
+4. Import & export database features also there. Read This blog(https://blog.shiftasia.com/set-up-and-work-with-mysql-on-window-with-xampp/)
+------------------------------
+Start Running Queries On XXAMP
+------------------------------
+
+
+
+
