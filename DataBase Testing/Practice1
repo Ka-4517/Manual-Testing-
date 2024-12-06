@@ -26,6 +26,86 @@ it and then finally click on the ‘Go’ key to conclude the process.
 ------------------------------
 Start Running Queries On XXAMP
 ------------------------------
+Q.1. To Create Table in XXAMP SQL ?
+Ans : CREATE TABLE BaggageInfo(
+    ticketNo BIGINT PRIMARY KEY,
+    fullName VARCHAR(255),
+    gender CHAR(1),
+    -- Assuming 'M', 'F', or 'O' for gender
+    contactPhone VARCHAR(15),
+    confNo VARCHAR(100),
+    bagInfo JSON
+);
+
+Q.2. To Create Another Table with name stream_acct , acct_id INTEGER,profile_name STRING,account_expiry TIMESTAMP(9),acct_data JSON, 
+PRIMARY KEY(acct_id)?
+Ans : CREATE TABLE stream_acct(
+acct_id INTEGER PRIMARY KEY,
+profile_name VARCHAR(255),
+account_expiry TIMESTAMP,
+acct_date JSON
+);
+
+Q.3. Create A Table if that was not exist?
+CREATE TABLE IF NOT EXISTS storeAcct (
+    contactPhone VARCHAR(15),
+    PRIMARY KEY(contactPhone)
+);
+
+Q.4. Create a database and a table
+Question: Create a database CompanyDB. 
+Inside it, create a table Employees with columns: id, name, age, department, and salary.
+Ans : 
+CREATE DATABASE CompanyDB;
+USE CompanyDB;
+
+CREATE TABLE Employees(
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    department VARCHAR(255),
+    salary DECIMAL(10,2)
+    );
+
+Q.5. Insert data into a table
+Question: Insert the following data into the Employees table:
+John, 25, HR, 50000
+Alice, 30, IT, 75000
+Bob, 28, Finance, 60000
+Ans : 
+INSERT INTO Employees(name,age,department,salary)
+VALUES 
+('KARAN','25','Testing','23200')
+;
+OR
+INSERT INTO Employees (id, name, age, department, salary)
+VALUES 
+    (2, 'John', 25, 'HR', 50000),
+    (3, 'Alice', 30, 'IT', 75000),
+    (4, 'Bob', 28, 'Finance', 60000);
+
+
+Q.6. Retrieve all records
+Question: Write a query to fetch all records from the Employees table.
+Answer:
+SELECT * FROM Employees;
+
+Q.7. Filter with conditions
+Question: Retrieve employees from the IT department earning more than 60000.
+Answer: 
+SELECT * FROM Employees
+WHERE department = 'IT' AND salary > 60000;
+
+Q.8. Delete Entry From Table
+DELETE FROM `Employees` WHERE 0
+
+Q.9. 
+
+
+
+
+
+
 
 
 
