@@ -1,0 +1,61 @@
+SQL Tutorial
+SQL is a standard language for storing, manipulating and retrieving data in databases.
+SQL stands for Structured Query Language
+
+What Can SQL do?
+SQL can execute queries against a database
+SQL can retrieve data from a database
+SQL can insert records in a database
+SQL can update records in a database
+SQL can delete records from a database
+SQL can create new databases
+SQL can create new tables in a database
+SQL can create stored procedures in a database
+SQL can create views in a database
+SQL can set permissions on tables, procedures, and views
+
+MySQL is a widely used relational database management system (RDBMS).
+MySQL is free and open-source.
+MySQL is ideal for both small and large applications.
+
+The MySQL SELECT Statement:
+The SELECT statement is used to select data from a database.
+The data returned is stored in a result table, called the result-set.
+SELECT Syntax:
+SELECT column1, column2, ...
+FROM table_name;
+
+
+The MySQL SELECT DISTINCT Statement:
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+
+
+The MySQL WHERE Clause
+The WHERE clause is used to filter records.
+It is used to extract only those records that fulfill a specified condition.
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+The MySQL AND, OR and NOT Operators
+The WHERE clause can be combined with AND, OR, and NOT operators.
+ND Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+OR Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+
+NOT Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+
+
+
+
+
