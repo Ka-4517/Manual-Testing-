@@ -9,4 +9,19 @@ CREATE TABLE KARAN_RECORDS (
     join_date DATE
 );
 
+INSERT INTO KARAN_RECORDS (first_name, last_name, email, phone_number, age, city, join_date)
+VALUES
+('Karan', 'Sharma', 'karan.sharma@example.com', '9876543210', 25, 'Mumbai', '2023-01-01'),
+('Amit', 'Gupta', 'amit.gupta@example.com', '9876543211', 30, 'Delhi', '2023-01-02'),
+('Riya', 'Mehta', 'riya.mehta@example.com', '9876543212', 28, 'Pune', '2023-01-03'),
+('Sneha', 'Patel', 'sneha.patel@example.com', '9876543213', 26, 'Ahmedabad', '2023-01-04'),
+('Rahul', 'Verma', 'rahul.verma@example.com', '9876543214', 35, 'Kolkata', '2023-01-05'),
+('Anjali', 'Singh', 'anjali.singh@example.com', '9876543215', 29, 'Bangalore', '2023-01-06');
+
+
+
+
+
+
+
 
