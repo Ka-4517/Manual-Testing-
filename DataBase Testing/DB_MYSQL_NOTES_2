@@ -1,0 +1,60 @@
+MySQL ORDER BY Keyword:
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword. 
+ORDER BY Syntax:
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+ex: SELECT department,id From Employees ORDER BY department DESC|ASC;
+
+The MySQL INSERT INTO Statement:
+The INSERT INTO statement is used to insert new records in a table.
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+--
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+
+
+What is a NULL Value?
+A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation!
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+
+IS NOT NULL Syntax:
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+
+The IS NULL Operator
+Tip: Always use IS NULL to look for NULL values.
+The IS NULL operator is used to test for empty values (NULL values).
+
+The MySQL UPDATE Statement:
+The UPDATE statement is used to modify the existing records in a table.
+UPDATE Syntax:
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+**Update Warning!
+Be careful when updating records. If you omit the WHERE clause, ALL records will be updated!
+
+
+The MySQL DELETE Statement:
+The DELETE statement is used to delete existing records in a table.
+DELETE FROM table_name WHERE condition;
+
+DELETE|DROP|TRUNCATE
+DELETE
+Removes specific rows from a table while keeping the table structure intact.
+DROP
+Deletes the entire table and its structure, including any associated data and objects. DROP is a DDL (Data Definition Language) command.
+TRUNCATE
+Removes all rows from a table, but preserves its structure. TRUNCATE is a DDL command.
+
+
+
+
+
