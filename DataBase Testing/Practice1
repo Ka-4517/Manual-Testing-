@@ -99,8 +99,50 @@ WHERE department = 'IT' AND salary > 60000;
 Q.8. Delete Entry From Table
 DELETE FROM `Employees` WHERE 0
 
-Q.9. 
+Q.9. Update records
+Question: Update Bob's salary to 65000.
+Answer : 
+UPDATE Employees
+SET salary = 65000
+WHERE name = 'Bob';
 
+Q.10. Delete records
+Question: Remove employees from the HR department.
+Answer : 
+DELETE FROM Employees
+WHERE department = 'HR';
+
+Q.11. Aggregate functions
+Question: Find the average salary of employees.
+SELECT AVG(salary) AS AverageSalary FROM Employees;
+--------------------
+SQL Aggregate Functions
+The most commonly used SQL aggregate functions are:
+
+MIN() - returns the smallest value within the selected column
+MAX() - returns the largest value within the selected column
+COUNT() - returns the number of rows in a set
+SUM() - returns the total sum of a numerical column
+AVG() - returns the average value of a numerical column
+*Aggregate functions ignore null values (except for COUNT()).
+---------------------------
+Q.12. Find Minimum Salary of Employee.
+SELECT MIN(salary) AS MinimumSalary FROM Employees;
+
+Q.13. Find MAXIMUM Salary of Employee.
+SELECT MAX(salary) AS MaximumSalary FROM Employees;
+
+Q.14. Find No. of Rows in Salary Column.
+SELECT COUNT(salary) AS NumberOfRows FROM Employees;
+
+Q.15. Group by and HAVING
+Question: Find the total salary paid per department and show only those departments where the total salary exceeds 60000.
+SELECT department, SUM(salary) AS TotalSalary
+FROM Employees
+GROUP BY department
+HAVING SUM(salary) > 60000;
+-----------------------------------------------
+Group By : The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
 
 
 
