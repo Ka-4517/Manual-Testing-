@@ -12,3 +12,29 @@ Filter data from a table
 You can filter query results by specifying a filter condition in the WHERE clause. Typically, a filter condition consists of one or more comparison expressions connected through logical operators AND or OR. 
 SELECT bag.fullName, bag.bagInfo[].tagNum FROM BaggageInfo bag
 WHERE bag.confNo="FH7G1W"
+---------------------------
+Automate Record Insertion
+To add 100+ records quickly, you can use the following INSERT INTO ... SELECT statement in combination with a script to repeat dummy records.
+
+Example for generating records programmatically:
+sql
+Copy code
+DELIMITER //
+
+CREATE PROCEDURE insert_dummy_data()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 100 DO
+        INSERT INTO KARAN_RECORDS (first_name, last_name, email, phone_number, age, city, join_date)
+        VALUES
+        (CONCAT('First', i), CONCAT('Last', i), CONCAT('user', i, '@example.com'),
+         CONCAT('98765432', LPAD(i, 2, '0')), FLOOR(18 + (RAND() * 40)),
+         CONCAT('City', i), DATE_ADD('2023-01-01', INTERVAL i DAY));
+        SET i = i + 1;
+    END WHILE;
+END //
+
+DELIMITER ;
+
+CALL insert_dummy_data();
+----------
